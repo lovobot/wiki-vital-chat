@@ -27,7 +27,7 @@ The goal is to transform this vast resource into an easily digestible and intera
 - Data collection: BeautifulSoup4, Python
 - Frontend: React, Next.js
 - Backend: Next.js API Routes, Wikipedia API
-- AI: Gemini-2.0-flash
+- AI: Gemini-2.5-flash
 - Deployment: Vercel
 
 ## Running Locally
@@ -55,7 +55,7 @@ It should now be accessible at [localhost:3000](http://localhost:3000), or the a
 Create a file named `.env.local` in the root directory of your project and add the following, replacing `your_gemini_api_key` with your actual key:
 
 ```
-API_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+API_URL=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
 API_KEY=your_gemini_api_key
 ```
 
